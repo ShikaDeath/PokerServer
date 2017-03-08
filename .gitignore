@@ -2,3 +2,4 @@
 .idea/
 PokerServer.iml
 target/
+.DS_Store

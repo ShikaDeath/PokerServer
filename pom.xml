@@ -7,13 +7,31 @@
     <groupId>Poker</groupId>
     <artifactId>PokerServer</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <junit-verision>4.12</junit-verision>
+        <commons-collections>4.1</commons-collections>
+        <commons-lang>3.5</commons-lang>
+    </properties>
 
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>${junit-verision}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>${commons-collections}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang}</version>
+        </dependency>
+
     </dependencies>
 
 </project>
